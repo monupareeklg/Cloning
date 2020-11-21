@@ -1,0 +1,135 @@
+body {
+    font-family: 'Montserrat';
+}
+
+#title {
+    background-color: #0f88f2;
+    color: #fff;
+}
+
+h1 {
+    font-family: "Montserrat";
+    size: 2rem;
+}
+
+.container-fluid {
+    padding: 1% 7%;
+}
+
+.btn-rt {
+    background-color: #fe3;
+    padding: 18px 35px;
+    border-radius: 3px;
+    border: none;
+}
+
+.height {
+    line-height: 1.15;
+    margin-bottom: 20px;
+}
+
+.p-height {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand { 
+    font-family: 'Ubuntu';
+    font-size: 2rem;
+}
+
+.nav-item {
+    padding: 0 2px;
+}
+
+.nav-link {
+    font-size: small;
+}
+
+/* Buttons */
+
+.account-button {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: 335578;
+}
+
+/* Title Image */
+
+.title-img {
+    width: 750px;
+    top: 0;
+    right: 1px;
+    position: absolute;
+}
+
+/* Press Section */
+
+#press {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 6%;
+    margin-left: 20px;
+}
+
+.no-cl {
+    padding-left: 35px;
+    opacity: .65;
+}
+
+.custom-img {
+    position: initial;
+}
+
+.press-sec {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/* Testmonials */
+
+#testmonials {
+    text-align: center;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+.text-margin {
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 50px;
+}
+
+.design-btn {
+    background-color: #0052bd;
+    margin: 10px 150px;
+    width: 896px;
+    height: 42px;
+}
+
+.design-btn-item {  
+    position: relative;
+    color: #fff;
+    width: 215px;
+    border: none;
+    height: 40px;
+    padding-top: 10px;
+    font-weight: 700;
+    opacity: .65;
+}
+
+.margin_btn {
+    color: whitesmoke;
+}
