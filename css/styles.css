@@ -3,7 +3,7 @@ body {
 }
 
 #title {
-    background-color: #0f88f2;
+    background-color: #1089f2;
     color: #fff;
 }
 
@@ -21,6 +21,8 @@ h1 {
     padding: 18px 35px;
     border-radius: 3px;
     border: none;
+    font-weight: 510;
+    color: #335578;
 }
 
 .height {
@@ -132,4 +134,76 @@ h2 {
 
 .margin_btn {
     color: whitesmoke;
+}
+
+.product-img {
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.product-content {
+    margin-top: 150px;
+    text-align: initial;
+    padding-left: 100px;
+}
+
+.product-h3 {
+    font-size: 20px;
+    font-weight: 510;
+    color: #fff;
+}
+
+.product-p {
+    font-size: 15px;
+}
+
+.padding-p {
+    padding-right: 90px;
+}
+
+.product-image {
+    width: 100%;
+    height: 100%;
+}
+
+.ilu-div {
+    margin-top: 350px;
+}
+
+.ilu-img {
+    width: 100%;
+}
+
+/* Second Section */
+
+#ilu {
+    text-align: center;
+}
+
+.ilu-div-i {
+    margin-top: 50px;
+}
+
+.ilu-h2 {
+    color: #335578;
+}
+
+/* Features Section */
+
+#features {
+    background-color: #fafafa;
+}
+
+
+
+/* Client Section */
+
+#client {
+    background-color: #0f88f2;
+}
+
+/* Ending Section */
+
+#ending {
+    background-color: #0e89f3;
 }
