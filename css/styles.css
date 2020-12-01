@@ -106,6 +106,7 @@ h1 {
 
 h2 {
     font-weight: 600;
+    font-size: 1.8rem;
 }
 
 .text-margin {
@@ -181,10 +182,22 @@ h2 {
 }
 
 .ilu-div-i {
-    margin-top: 50px;
+    margin-top: 100px;
+    width: 40%;
+    margin-left: 410px;
+    margin-bottom: 200px;
 }
 
 .ilu-h2 {
+    color: #335578;
+    font-weight: 605;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.work-1 {
+    text-align: left;
+    margin-left: 200px;
     color: #335578;
 }
 
