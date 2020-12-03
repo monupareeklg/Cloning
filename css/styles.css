@@ -201,6 +201,20 @@ h2 {
     color: #335578;
 }
 
+.cp-1 {
+    bottom: 100px;
+}
+
+.ilu-h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.ilu-p {
+    padding-right: 75px;
+}
+
 /* Features Section */
 
 #features {
