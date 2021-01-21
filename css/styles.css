@@ -263,9 +263,17 @@ h2 {
     top: 200px;
 }
 
-/* .ilu-p-3 {
-    
-} */
+.features-img-2 {
+    width: 890px;
+    position: relative;
+    right: 750px;
+    bottom: 350px;
+}
+
+.ilu-p-3 {
+   width: 400px; 
+   margin-left: 460px;
+}
 
 /* Client Section */
 
