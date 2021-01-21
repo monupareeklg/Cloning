@@ -275,6 +275,12 @@ h2 {
    margin-left: 460px;
 }
 
+.product-img-2 {
+    width: 75%;
+    position: relative;
+    bottom: 650px;
+}
+
 /* Client Section */
 
 #client {
