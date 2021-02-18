@@ -288,12 +288,14 @@ h2 {
 
 .i-a {
     width: 30px;
+    position: relative;
+    right: 140px;
 }
 
 .i-text {
     text-align: left;
     width: 465px;
-    margin-left: 20rem;
+    margin-left: 11rem;
     font-size: 24px;
     color: #335578;
     font-weight: 600;
