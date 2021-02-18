@@ -281,6 +281,33 @@ h2 {
     bottom: 650px;
 }
 
+.op-c {
+    position: relative;
+    bottom: 610px;
+}
+
+.i-a {
+    width: 30px;
+}
+
+.i-text {
+    text-align: left;
+    width: 465px;
+    margin-left: 20rem;
+    font-size: 24px;
+    color: #335578;
+    font-weight: 600;
+}
+
+.spon {
+    color: #FF7615;
+}
+
+.i-li {
+    color: #677482;
+    list-style-type: none;
+}
+
 /* Client Section */
 
 #client {
