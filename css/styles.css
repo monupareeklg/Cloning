@@ -1,0 +1,48 @@
+/* body {
+
+} */
+
+/* Title Section */
+#title {
+    background-color: #1089F2;
+}
+
+.nav-custom {
+    margin: 0px 69.5px;
+    padding: 0px 25px;
+    font: 16px;
+    color: #444444;
+}
+
+.logo-a {
+    position: relative;
+    z-index: 10;
+    color: transparent;
+    cursor: pointer;
+    line-height: 40px;
+    padding: 0 20px 0 0;
+}
+
+.logo-img {
+    width: 101px;
+    height: 24px;
+}
+
+.nav-li-1 {
+    float: left;
+}
+
+.nav-links-a {
+    color: #FFF;
+    opacity: .8;
+    font-weight: 400;
+    padding: 0px 12px;
+    box-sizing: border-box;
+    font-size: 15px;
+    line-height: 40px;
+    transition-property: color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    padding: 0 20px 0 0;
+    text-decoration: none;
+}
