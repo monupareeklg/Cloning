@@ -1,48 +1,333 @@
-/* body {
+body {
+    font-family: 'Montserrat';
+}
 
-} */
-
-/* Title Section */
 #title {
-    background-color: #1089F2;
+    background-color: #1089f2;
+    color: #fff;
 }
 
-.nav-custom {
-    margin: 0px 69.5px;
-    padding: 0px 25px;
-    font: 16px;
-    color: #444444;
+h1 {
+    font-family: "Montserrat";
+    size: 2rem;
 }
 
-.logo-a {
+.container-fluid {
+    padding: 1% 7%;
+}
+
+.btn-rt {
+    background-color: #fe3;
+    padding: 18px 35px;
+    border-radius: 3px;
+    border: none;
+    font-weight: 510;
+    color: #335578;
+}
+
+.height {
+    line-height: 1.15;
+    margin-bottom: 20px;
+}
+
+.p-height {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand { 
+    font-family: 'Ubuntu';
+    font-size: 2rem;
+}
+
+.nav-item {
+    padding: 0 2px;
+}
+
+.nav-link {
+    font-size: small;
+}
+
+/* Buttons */
+
+.account-button {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: 335578;
+}
+
+/* Title Image */
+
+.title-img {
+    width: 750px;
+    top: 0;
+    right: 1px;
+    position: absolute;
+}
+
+/* Press Section */
+
+#press {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 6%;
+    margin-left: 20px;
+}
+
+.no-cl {
+    padding-left: 35px;
+    opacity: .65;
+}
+
+.custom-img {
+    position: initial;
+}
+
+.press-sec {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/* Testmonials */
+
+#testmonials {
+    text-align: center;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.text-margin {
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 50px;
+}
+
+.design-btn {
+    background-color: #0052bd;
+    margin: 10px 150px;
+    width: 896px;
+    height: 42px;
+}
+
+.design-btn-item {  
     position: relative;
-    z-index: 10;
-    color: transparent;
-    cursor: pointer;
-    line-height: 40px;
-    padding: 0 20px 0 0;
+    color: #fff;
+    width: 215px;
+    border: none;
+    height: 40px;
+    padding-top: 10px;
+    font-weight: 700;
+    opacity: .65;
 }
 
-.logo-img {
-    width: 101px;
-    height: 24px;
+.margin_btn {
+    color: whitesmoke;
 }
 
-.nav-li-1 {
-    float: left;
+.product-img {
+    overflow: hidden;
+    margin-top: 50px;
 }
 
-.nav-links-a {
-    color: #FFF;
-    opacity: .8;
-    font-weight: 400;
-    padding: 0px 12px;
-    box-sizing: border-box;
+.product-content {
+    margin-top: 150px;
+    text-align: initial;
+    padding-left: 100px;
+}
+
+.product-h3 {
+    font-size: 20px;
+    font-weight: 510;
+    color: #fff;
+}
+
+.product-p {
     font-size: 15px;
-    line-height: 40px;
-    transition-property: color;
-    transition-duration: 1s;
-    transition-timing-function: ease-in-out;
-    padding: 0 20px 0 0;
-    text-decoration: none;
+}
+
+.padding-p {
+    padding-right: 90px;
+}
+
+.product-image {
+    width: 100%;
+    height: 100%;
+}
+
+.ilu-div {
+    margin-top: 350px;
+}
+
+.ilu-img {
+    width: 100%;
+}
+
+/* Second Section */
+
+#ilu {
+    text-align: center;
+}
+
+.ilu-div-i {
+    margin-top: 100px;
+    width: 40%;
+    margin-left: 410px;
+    margin-bottom: 200px;
+}
+
+.ilu-h2 {
+    color: #335578;
+    font-weight: 605;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.ilu-h2-2 {
+    color: #335578;
+    font-size: 36px;
+    line-height: 1.22;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.work-1 {
+    text-align: left;
+    margin-left: 150px;
+    color: #335578;
+    line-height: 1.8;
+}
+
+.work-2 {
+    text-align: left;
+    margin-right: 100px;
+    color: #335578;
+    line-height: 1.8;
+    padding-left: 50px;
+}
+
+.cp-1 {
+    bottom: 100px;
+}
+
+.cp-2 {
+    bottom: 50px;
+}
+
+.ilu-h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.ilu-h3-2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.ilu-p {
+    padding-right: 120px;
+}
+
+.ilu-p-2 {
+    padding-right: 230px;
+}
+
+.ilu-p-2-3 {
+    padding-right: 200px;
+}
+
+/* Features Section */
+
+#features {
+    background-color: #fafafa;
+    text-align: center;
+}
+
+.features-img-1 {
+    width: 680px;
+    position: relative;
+    left: 350px;
+    top: 200px;
+}
+
+.features-img-2 {
+    width: 890px;
+    position: relative;
+    right: 750px;
+    bottom: 350px;
+}
+
+.ilu-p-3 {
+   width: 400px; 
+   margin-left: 460px;
+}
+
+.product-img-2 {
+    width: 75%;
+    position: relative;
+    bottom: 650px;
+}
+
+.op-c {
+    position: relative;
+    bottom: 610px;
+}
+
+.i-a {
+    width: 30px;
+    position: relative;
+    right: 140px;
+}
+
+.i-text {
+    text-align: left;
+    width: 465px;
+    margin-left: 11rem;
+    font-size: 24px;
+    color: #335578;
+    font-weight: 600;
+}
+
+.spon {
+    color: #FF7615;
+}
+
+.i-li {
+    color: #677482;
+    list-style-type: none;
+    width: 370px;
+    margin-left: 130px;
+    text-align: left;
+    line-height: .5;
+}
+
+/* Client Section */
+
+#client {
+    background-color: #0f88f2;
+}
+
+/* Ending Section */
+
+#ending {
+    background-color: #0e89f3;
+}
+
+.ilu-img-3 {
+    width: 790px;
+    position: relative;
+    right: 135px;
 }

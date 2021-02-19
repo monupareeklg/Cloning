@@ -1,51 +1,604 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/styles.css">
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <title>Cloning</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Website</title>
+
+  <!--Google Fonts-->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Ubuntu:wght@400;700&display=swap"
+    rel="stylesheet" />
+
+  <!--FaviCon-->
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+
+  <!--Bootstrape CSS-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" />
+
+  <!--Custom CSS-->
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!--Bootstrape Scripts-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
+
 <body>
   <section id="title">
-    <div>
-      <nav class="navbar nav-custom navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="logo-a" href="#"><img src="img/logo@2x.png" alt="logo" class="logo-img"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item nav-li-1">
-                <a class="nav-link nav-links-a" aria-current="page" href="#">Tour</a>
-              </li> 
-              <li class="nav-item nav-li-1">
-                <a class="nav-link nav-links-a" href="#">Benifits</a>
-              </li>
-              <li class="nav-item nav-li-1">
-                <a class="nav-link nav-links-a" href="#">Products</a>
-              </li>
-              <li class="nav-item nav-li-1">
-                <a class="nav-link nav-links-a" href="#">Templates</a>
-              </li>
-              <li class="nav-item nav-li-1">
-                <a class="nav-link nav-links-a" href="#">Testimonials</a>
-              </li>
-              <li class="nav-item nav-li-1">
-                <a class="nav-link nav-links-a" href="#">Pricing</a>
-              </li>
-              <li class="nav-item nav-li-1">
-                <a class="nav-link nav-links-a" href="#">LogIn</a>
-              </li>
-            </ul>
-          </div>
+    <div class="container-fluid">
+      <!--Nav Bar-->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a href="#" class="navbar-brand mb-0 h1"><img width="101" height="24" src="img/logo@2x.png" alt="logo"></a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Tour</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Benefits</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Product</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Templates</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Login</a>
+            </li>
+          </ul>
         </div>
       </nav>
+      <!--End Nav Bar-->
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="height">Shape Your Ideas.<br />Proove Your Concept.</h1>
+          <p class="p-height">
+            A streamlined web app that helps you create and collaborate in
+            real-time on wireframes, mockups, diagrams and prototypes.
+          </p>
+          <a href="#" class="btn btn-rt">Create a FREE account</a>
+          <div class="no-cl">
+            <p>No credit card required</p>
+          </div>
+        </div>
+        <div class="col-lg-6 custom-img">
+          <img class="title-img" src="img/illustrations/walls_hero@2x.png" alt="wallshero" />
+        </div>
+      </div>
+      <section id="press">
+        <div class="press-sec">
+          <span>Used by 2,000,000 people worldwide</span>
+          <span>
+            <img class="press-logo" src="img/client/microsoft.png" alt="client" />
+            <img class="press-logo" src="img/client/intel.png" alt="client" />
+            <img class="press-logo" src="img/client/cisco.png" alt="client" />
+            <img class="press-logo" src="img/client/amazon.png" alt="client" />
+            <img class="press-logo" src="img/client/sony.png" alt="client" />
+            <img class="press-logo" src="img/client/oracle.png" alt="client" />
+            <img class="press-logo" src="img/client/mozilla.png" alt="client" />
+          </span>
+        </div>
+      </section>
+      <section id="testmonials">
+        <div class="text-margin">
+          <h2>
+            An all-in-one online design platform that's smart, simple and
+            fast.
+          </h2>
+        </div>
+        <div class="margin_btn">
+          <div class="design-btn">
+            <a class="btn design-btn-item active" href="#">DESIGN</a>
+            <a class="btn design-btn-item" href="#">PLAN</a>
+            <a class="btn design-btn-item" href="#">PROTOTYPE</a>
+            <a class="btn design-btn-item" href="#">COLLABORATE</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="product-content">
+              <h3 class="product-h3">Visualize Your Concept</h3>
+              <div class="padding-p">
+                <p class="product-p">
+                  Envision, test and validate your ideas with quick wireframes
+                  and detailed mockups.
+                </p>
+                <p class="product-p">
+                  Explore and iterate as your team builds momentum - moving
+                  seamlessly from lo-fi to hi-fi as your project evolves.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="product-img col-lg-6">
+            <img class="product-image" src="img/products/moqups-wireframe-storyboard.png" alt="Products" />
+          </div>
+        </div>
+        <div class="ilu-div">
+          <img class="ilu-img" src="img/illustrations/wall@2x.png" alt="" />
+        </div>
+      </section>
+    </div>
+  </section>
+  <section id="ilu">
+    <div class="ilu-div-i">
+      <h2 class="ilu-h2">
+        A flexible design solution that adapts to your workflow.
+      </h2>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="work-1">
+          <div>
+            <h3 class="ilu-h3">Work Anywhere With Your Team</h3>
+          </div>
+          <p class="ilu-p">
+            Work remotely in the Cloud - anytime and on any device - without
+            the hassle of uploading and downloading files.
+          </p>
+          <p class="ilu-p">
+            Keep a geographically dispersed team collaborating - and always in
+            sync.
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-6 cp-1">
+        <img src="img/illustrations/illu1@2x.png" alt="ilu-image" style="width: 520px" />
+      </div>
+      <div class="col-lg-6 cp-1">
+        <img class="ilu-img-3" src="img/illustrations/illu2@2x.png" alt="ilu-image-2" />
+      </div>
+      <div class="col-lg-6">
+        <div class="work-2">
+          <h3 class="ilu-h3-2">One Fast Learning Curve For Everyone</h3>
+          <p class="ilu-p-2">
+            Get collaborators onboard quickly with a single, intuitive
+            interface.
+          </p>
+          <p class="ilu-p-2-3">
+            Curated design tools provide the functionality and flexibility that
+            your team really needs - without any unnecessary or distracting
+            complexity.
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="work-1">
+          <div>
+            <h3 class="ilu-h3">Accelerate Your Creative Process</h3>
+          </div>
+          <p class="ilu-p">
+            Work within a single creative context to maintain your team's focus
+            and momentum.
+          </p>
+          <p class="ilu-p">
+            Keep all stakeholders – Product Managers, Business Analysts, System
+            Architects, Designers and Developers – building consensus and
+            communicating clearly.
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-6 cp-2">
+        <img src="img/illustrations/illu3@2x.png" alt="ilu-image-3" style="width: 530px" />
+      </div>
+    </div>
+  </section>
+
+  <section id="features">
+    <div>
+      <div>
+        <img class="features-img-1" src="img/frames/confetti-right@2x.png" alt="Right Side IMG" />
+      </div>
+      <div>
+        <h2 class="ilu-h2-2">
+          A full ecosystem of tools <br />
+          within a single design <br />
+          environment.
+        </h2>
+        <p class="ilu-p-3">
+          Go from diagrams, wireframes and prototypes without switching apps or
+          updating across platforms.
+        </p>
+      </div>
+      <div class="features-img-2">
+        <img src="img/frames/confetti-left@2x.png" alt="Left Side IMG" />
+      </div>
+      <img class="product-img-2" src="img/products/moqups-overview.png" alt="product-img" />
+    </div>
+    <div class="row op-c">
+      <div class="col-lg-6">
+        <div>
+          <img class="i-a" src="img/icons/stencils@2x.png" alt="icon-1">
+        </div>
+        <div class="i-text">
+          <p>Crisp, ready-to-use <span class="spon">Stencils</span> for all popular use-cases</p>
+        </div>
+        <div>
+          <ul>
+            <li class="i-li i">
+              Drag and drop elements - quickly and easily - from a comprehensive
+              library of widgets and smart-shapes.
+            </li>
+            <li class="i-li">
+              Select from a range of integrated stencil kits for both mobile-app
+              and web design - including iOS, Android, and Bootstrap.
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-6">
+          <div>
+            <img src="img/icons/icons@2x.png" alt="icon-2">
+          </div>
+          <h3>Built-in library with thousands of popular Icon Sets</h3>
+        </div>
+        <div>
+          <ul>
+            <li>
+              Choose from Font Awesome, Material Design, and Hawcons - right at
+              your fingertips.
+            </li>
+            <li>
+              Update icons with intelligent drag-and-drop replacement that
+              preserves size, position and style.
+            </li>
+          </ul>
+        </div>
+        <div>
+          <div>
+            <img src="img/icons/images@2x.png" alt="icon-3">
+          </div>
+          <h3>Drag and drop to import Images from your desktop or apps</h3>
+        </div>
+        <div>
+          <ul>
+            <li>
+              Upload ready-made designs, and quickly convert them into interactive
+              prototypes.
+            </li>
+            <li>
+              Make multiple versions of the same image with non-destructive
+              cropping.
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-6">
+          <div>
+            <img src="img/icons/fonts@2x.png" alt="icon-4">
+          </div>
+          <h3>Extensive range of Fonts and styling options</h3>
+        </div>
+        <div>
+          <ul>
+            <li>
+              Select from hundreds of font choices with integrated Google Fonts.
+            </li>
+            <li>
+              Fine-tune the text to match your designs with advanced typography
+              controls.
+            </li>
+          </ul>
+        </div>
+        <div>
+          <div>
+            <img src="img/icons/object-editing@2x.png" alt="icon-5">
+          </div>
+          <h3>Fast, intuitive, and precise Object Editing</h3>
+        </div>
+        <div>
+          <ul>
+            <li>
+              Resize, rotate, align and style objects - or transform multiple
+              objects and groups - with smart and dynamic tools.
+            </li>
+            <li>
+              Bulk-edit, rename, lock, and group elements. Undo or redo on
+              multiple levels. Quickly identify objects, navigate through nested
+              groups, and toggle visibility - all within the Outline Panel.
+            </li>
+            <li>
+              Make precision adjustments with grids, rulers, custom-guides,
+              snap-to-grid, and quick-alignment tools. Scale, without loss of
+              quality, with vectorial zooming.
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-6">
+          <div>
+            <img src="img/icons/page-management@2x.png" alt="icon-6">
+          </div>
+          <h3>Powerful, flexible, and scalable Page Management</h3>
+        </div>
+        <div>
+          <ul>
+            <li>
+              Handle projects of any size or complexity with powerful Page
+              Management tools. Drag and drop pages to quickly reorder them - or
+              organize them within folders.
+            </li>
+            <li>
+              Search and navigate through complex folder hierarchies with our
+              Pages Panel. Hide pages or folders - that aren’t quite ready for
+              primetime - with a simple click of the mouse.
+            </li>
+            <li>
+              Save time by leveraging Master Pages, and automatically apply any
+              changes to all associated pages.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div>
+      <p>Join over 2,000,000 people already on Moqups</p>
+      <a href="#" class="btn btn-lg btn-primary">CREATE A FREE ACCOUNT</a>
+    </div>
+    <div>
+      <img src="img/frames/download.png" alt="frame-img" style="width: 100%" />
+    </div>
+  </section>
+
+  <section>
+    <div>
+      <h2>
+        The essential features and functionality to help you thrive in a
+        competitive design world.
+      </h2>
+    </div>
+    <div>
+      <img src="img/illustrations/panel-company@2x.png" alt="panal-img" style="width: 200px" />
+    </div>
+    <div>
+      <p>Communication, Collaboration and Cohesion for Your Team</p>
+      <ul>
+        <li>Keep your team focused within a single creative context</li>
+        <li>
+          Jump effortlessly between diagrams, wireframes, mockups and
+          prototypes
+        </li>
+        <li>
+          Maintain momentum by moving seamlessly from low-fidelity to
+          high-fidelity
+        </li>
+        <li>
+          Work in the Cloud and integrate with Slack, Google Drive and Dropbox
+        </li>
+        <li>
+          Avoid chaos by getting timely feedback - right on your designs
+        </li>
+      </ul>
+    </div>
+    <div>
+      <img src="img/illustrations/panel-team@2x.png" alt="panal-img-2" style="width: 200px" />
+    </div>
+    <div>
+      <p>Consolidation, Simplification, and Scalability for Your Company</p>
+      <ul>
+        <li>Keep stakeholders on the same page with one design ecosystem</li>
+        <li>
+          Reduce unwanted complexity with professionally-curated design tools
+        </li>
+        <li>Collaborate in real time on a flexible communication platform</li>
+        <li>
+          Simplify your billing with one subscription, one budget, and one
+          invoice
+        </li>
+        <li>
+          Add new seats as you need them – to quickly expand your team and
+          include all partners
+        </li>
+      </ul>
+    </div>
+    <div>
+      <img src="img/illustrations/panel-customers@2x.png" alt="panal-customer-img" style="width: 200px" />
+    </div>
+    <div>
+      <p>Comfort, Clarity, and Validation for Your Clients</p>
+      <ul>
+        <li>
+          Break the ice with clients - and establish bona fides - with quick
+          wireframes or mockups
+        </li>
+        <li>
+          Create trust , and reassure your clients, by including them in the
+          design process
+        </li>
+        <li>Validate ideas and clarify assumptions early in the game</li>
+        <li>
+          Eliminate back and forth by making changes that are instantly
+          visible online
+        </li>
+        <li>
+          Prove your concept by showing clients interactive prototypes of your
+          vision
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="client">
+    <div>
+      <h2>What our users think about Moqups</h2>
+    </div>
+    <div>
+      <img src="img/twitter/lara_ux.jpg" alt="twitter-image-1" />
+    </div>
+    <div>
+      <div>Lara</div>
+      <p>@Lara_ux</p>
+    </div>
+    <div>
+      Every now & then we're resistant to change & then you give in & try and
+      a new design tool and you love it :)! <a href="#">@moqups</a>#ux
+      #collaboration
+    </div>
+    <div>
+      <img src="img/twitter/missCarrieMah.png" alt="twitter-image-2" />
+    </div>
+    <div>
+      <div>Carrie Mah</div>
+      <p>@missCarrieMah</p>
+    </div>
+    <div>
+      I love <a href="#">@moqups</a>- fantastic revamp, and providing
+      #nonprofits and #students free memberships :) Thanks for making #mockup
+      #design easy!
+    </div>
+    <div>
+      <img src="img/twitter/saketsaurabh.jpg" alt="twitter-image-3" />
+    </div>
+    <div>
+      <div>saketsaurabh</div>
+      <p>@saketsaurabh</p>
+    </div>
+    <div>
+      <a href="#">@moqups</a> proving to be a well thought out and solidly
+      built wireframing tool. Never going back to Balsamiq, FluidUI or Keynote
+    </div>
+    <div>
+      <img src="img/twitter/_JayGeorge.jpg" alt="twitter-image-4" />
+    </div>
+    <div>
+      <div>Jay George</div>
+      <p>@_JayGeorge</p>
+    </div>
+    <div>
+      The new version of <a href="#">@moqups</a> is really fantastic. My
+      favourite wireframing tool; especially with its excellent collaboration
+      features.
+    </div>
+    <div>
+      <img src="img/twitter/DaveThackeray.jpg" alt="twitter-image-5" />
+    </div>
+    <div>
+      <div>#AskDaveTee</div>
+      <p>@DaveThackeray</p>
+    </div>
+    <div>
+      Wireframing is effortless with <a href="#">@moqups</a> . I've tried all
+      the services and this is the most lightweight and effective way to get
+      it done.
+    </div>
+    <div>
+      <img src="img/twitter/robert_egorov.png" alt="twitter-image-6" />
+    </div>
+    <div>
+      <div>Robert Egorov</div>
+      <p>@robert_egorov</p>
+    </div>
+    <div>
+      <a href="#">@moqups</a> thanks for the great tool. You are really the
+      best. Amazing. I am 3 years with you already. Nobody compares. Don't
+      stop!
+    </div>
+    <div>
+      <img src="img/twitter/jesseddy.png" alt="twitter-image-7" />
+    </div>
+    <div>
+      <div>Jess Eddy</div>
+      <p>@jesseddy</p>
+    </div>
+    <div>
+      You can now do some badass diagramming with <a href="#">@moqups</a>
+    </div>
+    <div>
+      <img src="img/twitter/mirshko.jpg" alt="twitter-image-8" />
+    </div>
+    <div>
+      <div>Jeff Reiner</div>
+      <p>@mirshko</p>
+    </div>
+    <div>
+      Just copped a license for <a href="#"> @moqups</a> pro! Its been super
+      great for mocking up new pages for <a href="#"> @Onshape</a> website!
+      Thanks!
+    </div>
+    <div>
+      <img src="img/twitter/WPBarista.jpg" alt="twitter-image-9" />
+    </div>
+    <div>
+      <div>WordPress Barista</div>
+      <p>@WPBarista</p>
+    </div>
+    <div>
+      Having a blast with <a href="#"> @moqups</a> - first wireframe - done in
+      an hour!! Woot! #wordPress #design #mockups
+    </div>
+  </section>
+
+  <section id="ending">
+    <div>
+      <h2>Streamline your design workflow and unify your team.</h2>
+      <p>From conception to presentation with one online solution.</p>
+    </div>
+    <div>
+      <a href="#" class="btn btn-primary btn-lg">CREATE A FREE ACCOUNT</a>
+      <p>No credit card required</p>
+    </div>
+  </section>
+  <section id="footer">
+    <div>
+      <ul>
+        <li>
+          <span>MOQUPS</span>
+        </li>
+        <li>Tour</li>
+        <li>Features</li>
+        <li>Benefits</li>
+        <li>Testimonials</li>
+        <li>Pricing</li>
+        <li>Wireframe Tool</li>
+        <li>Flowchart Maker</li>
+        <li>Graph Maker</li>
+        <li>Online Whiteboard</li>
+        <li>Moqups for JIRA & Conflunce</li>
+      </ul>
+    </div>
+    <div>
+      <ul>
+        <li>
+          <span>TEMPLATES</span>
+        </li>
+        <li>Wireframes & Mockups</li>
+        <li>Diagrams & Flowcharts</li>
+        <li>Mind Maps</li>
+        <li>Process Flowcharts</li>
+        <li>Site Maps</li>
+        <li>Charts & Graphs</li>
+        <li>Business Strategy</li>
+      </ul>
+    </div>
+    <div>
+      <ul>
+        <li>
+          <span>RESOURCES</span>
+        </li>
+        <li>What's New</li>
+        <li>Blog</li>
+        <li>Moqups Chrome Extension</li>
+        <li>Moqups Firefox Add-on</li>
+      </ul>
+    </div>
+    <div>
+      <ul>
+        <li>
+          <span>SUPPORT</span>
+        </li>
+        <li>Help Center</li>
+        <li>Contact Us</li>
+        <li>FAQ</li>
+        <span>logo</span>
+      </ul>
     </div>
   </section>
 </body>
+
 </html>
